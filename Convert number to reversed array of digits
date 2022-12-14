@@ -1,0 +1,4 @@
+function digitize(n) {
+  let toString = Array.from(String(n), Number).reverse();
+  return toString
+}
